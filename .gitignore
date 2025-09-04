@@ -1,0 +1,21 @@
+
+# Ignoring venv folder
+.crops
+
+# Ignoring GGIS modules
+*.qgz
+
+# Ignoring data folder
+data/**
+!data/**/.gitkeep
+
+#Ignoring sub folders
+images/*
+docs/raichur/*
+docs/*
+!docs/data_docs
+!docs/.gitkeep
+
+# Ignoring Shapes in src but retaining the folder
+src/godavari_*
+
