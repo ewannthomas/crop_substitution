@@ -17,8 +17,8 @@ IBIS is privately owned data product which lists the details of all industrial u
 ### Codes
 
 #### ASI
-This folder under `src` directory contains codes associated with cleaning the ASI 2019-20 data files and creating the industry standard average water based inputs parameters. The detailed description of the changes made to the raw data, necessary calculations and assumptions are provided in the documentation file. 
+This folder under `src` directory contains codes associated with cleaning the ASI 2019-20 data files and creating the industry standard average water based inputs parameters. The detailed description of the changes made to the raw data, necessary calculations and assumptions are provided in the [documentation file](https://github.com/ewannthomas/crop_substitution/blob/master/docs/data_docs/ASI_calculations.md). 
 
 
 #### IBIS data
-This folder under `src` directory contains Jupyter notebooks associated with cleaning IBIS industrial directories. The cleaned product was used to estimate urban industrial water demand. The detailed description of the changes made to the raw data, necessary calculations and assumptions are provided in the documentation file. 
+This folder under `src` directory contains Jupyter notebooks associated with cleaning IBIS industrial directories. The cleaned product was used to estimate urban industrial water demand. The detailed description of the changes made to the raw data, necessary calculations and assumptions are provided in the [documentation file](https://github.com/ewannthomas/crop_substitution/blob/master/docs/data_docs/ibis_changes.md). 
