@@ -607,3 +607,39 @@ The following entires are captive power plants that have only one plant. These p
 
 
 ### Power plants and Captive plants
+The 1728 entries from power plants directory and 1969 entries from captive plants directory has been appended into a single directory with, 3697 entries and the necessary indicators. 
+
+The following edits were made to the compiled file:
+1. Duplicates - Based on the columns 'company_name','add1', 'add2', 'city', 'pincode', 'taluk', 'district', and 'state', the entries that duplicate themselves in both the directories were identified. There were 565 such cases. Out of these cases the, the entry with maximum number of information is retained. Another instance where same entry from two directories differ in terms of whetehr its a captive entry or not, its checked with the PDF and retained accordingly. These changes were made into the file "data/ibis/data_docs/power_plant_compiled_duplicates.csv"
+
+2. Right after compilation, there were some string corrections in the type and fuel columns. They have been performed.
+
+2. The duplicates were removed and we are left with 3468 entries.
+
+
+##### Assumptions:
+Within in fuel column:
+1. Coke Plants are assumed to use a WHRS captive power plant.
+2. Coal producing units are assumed to use a thermal power plant.
+3. Distilleries are assumed to use bagasse as fuel in thermal power plants.
+4. DRI Plants are assumed to use thermal power plants
+5. Electric Arc Furnaces (EAF) are assumed to use thermal power plants. 
+6. Edible oil is left blank
+7. Ferro Alloys are assumed to use thermal power plants
+8. Fertilizer is left blank
+9. Food and Food processing is replaced with Biomass in fuel column and thermal in type column.
+10. Furnace Oils are assumed to use thermal power plants.
+11. Induction Furnace is assumed to use thermal power plants as captive
+12. Integrated Steel Plant is assumed to use thermal power plants as captive
+13. Paper is replaced with Biomass in fuel column and thermal in type column.
+14. Pellet is assumed to use thermal power plants as captive
+15. Pharma is left blank
+16. Pig iron is assumed to use thermal power plants as captive
+17. Power was written for a paper factory. It is replaced with Biomass in fuel column and thermal in type column.
+18. Rice Husk is replaced with Biomass in fuel column and thermal in type column.
+19. Rolling is assumed to use thermal power plants as captive
+20. Steel is assumed to use thermal power plants as captive
+21. Sugar is replaced with Bagasse in fuel column and thermal in type column.
+22. Textiles is assumed to use thermal power plants as captive
+23. Tyres is left blank
+24. Waste heat is assumed to be using WHRS
